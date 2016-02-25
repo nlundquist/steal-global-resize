@@ -3,4 +3,6 @@
  */
 import resizeSensor from './resize-sensor';
 
+console.log(resizeSensor);
+
 document.body.innerHTML = 'is import function: ' + (typeof resizeSensor === 'function');
